@@ -36,7 +36,21 @@ h1 {
 }
 
 .paragraph {
-  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30em;
+  margin: 0;
+}
+
+h4 {
+  display: flex;
+  align-self: center;
+}
+
+li {
+  list-style: none;
 }
 
 footer {
