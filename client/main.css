@@ -21,7 +21,7 @@ h1 {
 
 .jumbotron {
   padding: 7em 2em;
-  min-height: 40%;
+  min-height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +40,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 30em;
+  padding: 0 15em;
   margin: 0;
 }
 
@@ -50,7 +50,9 @@ h4 {
 }
 
 li {
+  display: flex;
   list-style: none;
+  align-self: center;
 }
 
 footer {
